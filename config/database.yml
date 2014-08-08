@@ -1,0 +1,13 @@
+development:
+  adapter: postgresql
+  host: localhost
+  username: claudiu
+  database: wantatrip_dev
+
+production:
+  adapter: postgresql
+  host: ec2-23-23-80-55.compute-1.amazonaws.com
+  username: bxgpmfujnnmvqk
+  port: 5432
+  password: CcgqIEPVDBgnmgqiLSMNApa0fq
+  database: d62rp11chidpcp

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2781889139">
+    <data-source source="LOCAL" name="Rails admin-wantatrip: development" uuid="8372b700-9d1b-4092-b492-c2426188743e">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/wantatrip_dev</jdbc-url>
+      <user-name>claudiu</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails admin-wantatrip: production" uuid="17c3b24e-ce94-444d-9af3-da025ca1b188">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-23-23-80-55.compute-1.amazonaws.com:5432/d62rp11chidpcp</jdbc-url>
+      <user-name>bxgpmfujnnmvqk</user-name>
+      <user-password>dfe9dfc9dfcddfdbdfe3dfefdffadffcdfeedfe8dfcddfc4dfc7dfcddfdbdfc3dfe6dff9dfe7dfe4dfebdfdadfcbdf9adfccdfdb</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
