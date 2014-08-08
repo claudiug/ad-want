@@ -5,9 +5,10 @@ development:
   database: wantatrip_dev
 
 production:
-  adapter: postgresql
-  host: ec2-23-23-80-55.compute-1.amazonaws.com
-  username: bxgpmfujnnmvqk
-  port: 5432
-  password: CcgqIEPVDBgnmgqiLSMNApa0fq
-  database: d62rp11chidpcp
+  adapter: ENV['HEROKU_ADAPTER']
+  host: ENV['HEROKU_HOST']
+  username: ENV['HEROKU_USERNAME']
+  port: ENV['HEROKU_PORT']
+  password: ENV['HEROKU_PASSWORD']
+  database: ENV['HEROKU_DATABASE']
+
